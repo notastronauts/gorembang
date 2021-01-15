@@ -29,6 +29,13 @@ function data() {
         closeSideMenu() {
             this.isSideMenuOpen = false
         },
+        isSideMenuMediumOpen: true,
+        toggleSideMenuMedium() {
+            this.isSideMenuMediumOpen = !this.isSideMenuMediumOpen
+        },
+        closeSideMenuMedium() {
+            this.isSideMenuMediumOpen = false
+        },
         isNotificationsMenuOpen: false,
         toggleNotificationsMenu() {
             this.isNotificationsMenuOpen = !this.isNotificationsMenuOpen
