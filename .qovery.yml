@@ -1,0 +1,15 @@
+---
+application:
+  name: "gorembang"
+  project: "gorembang"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "gorembang"
+  version: "8.0"
+routers:
+- name: "main-gorembang"
+  routes:
+  - application_name: "gorembang"
+    paths:
+    - "/*"
